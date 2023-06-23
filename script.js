@@ -22,7 +22,7 @@ function toggleNav() {
   mainGrid.classList.toggle("main-grid-nav");
   naviGation.classList.toggle("hide-nav");
   menu.classList.toggle("hide-menu");
-  main.style.position = "absolute";
+  main.style.position = "fixed";
   mainGrid.style.position = "static";
 
   const upperGrid = document.querySelector(".upper-grid");
